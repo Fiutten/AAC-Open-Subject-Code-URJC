@@ -1,0 +1,29 @@
+Arquitecturas Avanzadas de Computadores - manifiesto de programas
+Autor: Alberto Fernández Isabel
+Curso: 2026-2027
+
+Este manifiesto documenta procedencia y tratamiento editorial/técnico de la colección.
+Los algoritmos y ejemplos proceden de los materiales de la asignatura; el proceso de
+publicación se limita a organización, licencias, eliminación de salidas de notebooks
+y correcciones necesarias para que los ejemplos sean coherentes y reutilizables.
+
+00_preparacion/tema0_modelo.py <- 03_practicas/soluciones_codigo/tema0_modelo.py (copia autónoma, sin cambios algorítmicos)
+00_preparacion/tema0_main.py <- 03_practicas/soluciones_codigo/tema0_main.py (copia autónoma, sin cambios algorítmicos)
+01_introduccion/spark_rdd_basico.py <- material_original/programas/Tema_05_Memoria_distribuida/Spark_example.py (se conserva el ejemplo RDD autocontenido; se elimina configuración local obsoleta y la dependencia de textos/Data.txt)
+02_segmentacion/tema2_pipeline.py <- 03_practicas/soluciones_codigo/tema2_pipeline.py (copia autónoma, sin cambios algorítmicos)
+03_paralelismo_nivel_instruccion/tema3_especulacion.py <- 03_practicas/soluciones_codigo/tema3_especulacion.py (copia autónoma, sin cambios algorítmicos)
+04_memoria_compartida/tema4_simulacion_concurrente.py <- 03_practicas/soluciones_codigo/tema4_simulacion_concurrente.py (copia autónoma, sin cambios algorítmicos)
+06_aceleradores/tema6_numba_ejemplo.py <- 03_practicas/soluciones_codigo/tema6_numba_ejemplo.py (copia autónoma, sin cambios algorítmicos)
+06_aceleradores/tema6_parsl_ejemplo.py <- 03_practicas/soluciones_codigo/tema6_parsl_ejemplo.py (copia autónoma, sin cambios algorítmicos)
+06_aceleradores/tema6_cuda_numba_ejemplo.py <- 03_practicas/soluciones_codigo/tema6_cuda_numba_ejemplo.py (copia autónoma, sin cambios algorítmicos)
+05_memoria_distribuida/spark_rdd_basico.py <- material_original/programas/Tema_05_Memoria_distribuida/Spark_example.py (versión autocontenida; también se referencia desde Tema 1)
+05_memoria_distribuida/spark_rdd_suma.py <- material_original/programas/Tema_05_Memoria_distribuida/SumaRDD.py (licencia/encabezado añadido)
+05_memoria_distribuida/spark_sql_dataframes.py <- material_original/programas/Tema_05_Memoria_distribuida/SQLdataframes.py (SparkSession importado explícitamente y SQLContext obsoleto sustituido por SparkSession)
+05_memoria_distribuida/spark_tfidf_similarity.py <- material_original/programas/Tema_05_Memoria_distribuida/tdidf_spark.py (encabezado añadido y columna id normalizada para evitar fallo por mayúsculas/minúsculas)
+05_memoria_distribuida/notebooks/Spark_RDD_basico.ipynb <- material_original/programas/Tema_05_Memoria_distribuida/0-Spark-conf-test.ipynb (salidas/trazas eliminadas, SparkContext reutilizable y título editorial corregido)
+05_memoria_distribuida/notebooks/Spark_SQL_DataFrames_basico.ipynb <- material_original/programas/Tema_05_Memoria_distribuida/SQL-DataFrames.ipynb (salidas eliminadas; se publica la sección autocontenida previa a los ejemplos que requieren datasets externos)
+
+NO PUBLICADOS EN CATEGORÍA 6
+material_original/programas/Tema_05_Memoria_distribuida/Spark_task.py: duplicado funcional del ejemplo Spark básico; se conserva como original, pero se evita duplicarlo en la colección pública.
+material_original/programas/Tema_05_Memoria_distribuida/1-SQL-DataFrames.ipynb: versión anterior del notebook SQL/DataFrames; se conserva como original y se publica la versión más reciente SQL-DataFrames.ipynb.
+Los ficheros JSON/datos locales referenciados por secciones históricas de los notebooks no estaban presentes en el repositorio y por tanto esas secciones no se presentan como ejemplos autónomos.
