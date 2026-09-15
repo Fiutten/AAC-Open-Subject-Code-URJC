@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import json
-import py_compile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,7 +27,7 @@ def main() -> None:
         text = path.read_text(encoding="utf-8")
         if "SPDX-License-Identifier: MIT" not in text:
             raise RuntimeError(f"Falta el encabezado SPDX: {path.relative_to(ROOT)}")
-        py_compile.compile(str(path), doraise=True)
+        compile(text, str(path), "exec")
 
     for path in notebooks:
         notebook = json.loads(path.read_text(encoding="utf-8"))
