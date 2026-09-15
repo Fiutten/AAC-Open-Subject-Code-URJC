@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Si utiliza este software docente, cite esta colección."
+title: "Arquitecturas Avanzadas de Computadores - código docente"
+type: software
+authors:
+  - family-names: "Fernández Isabel"
+    given-names: "Alberto"
+year: 2026
+license: MIT
+repository-code: "https://github.com/Fiutten/AAC-Open-Subject-Code-URJC"
