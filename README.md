@@ -69,13 +69,9 @@ python scripts/validate.py
 
 ## Preservación y BURJC Digital
 
-Este repositorio es la publicación pública exigida para la categoría 6. La versión definitiva se archivará en **Software Heritage**. Después se incorporarán aquí y a la documentación del depósito:
+Este repositorio es la publicación pública exigida para la categoría 6. El estado del archivado, la solicitud activa y el futuro SWHID se documentan en [PRESERVATION.md](PRESERVATION.md).
 
-- el SWHID de la versión exacta archivada;
-- el enlace permanente de Software Heritage;
-- la referencia del depósito único de la asignatura en BURJC Digital.
-
-Hasta que se archive la versión definitiva, esos identificadores no deben sustituirse por valores provisionales.
+Cuando Software Heritage confirme la versión exacta, se incorporarán el SWHID, su enlace permanente y la referencia del depósito único de la asignatura en BURJC Digital. No deben utilizarse identificadores provisionales.
 
 ## Licencia
 
