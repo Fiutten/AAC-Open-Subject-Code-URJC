@@ -1,0 +1,6 @@
+pyspark
+numpy
+numba
+parsl
+pandas
+scipy
